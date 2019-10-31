@@ -25,7 +25,7 @@ To run the process:
 The information extracted, and the mappings to ontologies, are tailored to the needs of 
 the [Mapping Manuscript Migrations](http://mappingmanuscriptmigrations.org/) project. 
 The scripts will not work, without modification, on other TEI manuscript descriptions, even 
-ones using [the same schema](https://github.com/bodleian/consolidated-tei-schema). But they 
+ones using [the same schema](https://github.com/msDesc/consolidated-tei-schema). But they 
 might be of interest to others building their own mappings.
 
 More information can be found at https://mapping-manuscript-migrations.github.io/
