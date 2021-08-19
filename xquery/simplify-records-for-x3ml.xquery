@@ -406,7 +406,7 @@ declare function local:listDigitizedCopies($surrogates as element(tei:surrogates
 
 <manuscripts>
     {
-    for $manuscript at $pos in collection(concat($collectionsfolder, '/?select=*.xml;recurse=yes'))/tei:TEI
+    for $manuscript at $pos in collection(concat($collectionsfolder, '/?select=*.xml;recurse=yes'))/tei:TEI[not(@type = 'stub')]
     
         return if ($pos mod $numchunks = $chunk) then
         
